@@ -34,7 +34,7 @@ public class StringMatchingAlgorithms {
 
         int [] prefixTable = KnuthMorrisPratt.preFixTable("ABABCABCD");
 
-        System.out.println(KnuthMorrisPratt.doesMatch("ABCDEFHGABABCABCDJDGD","ABABCABCD",prefixTable));
+        System.out.println(KnuthMorrisPratt.KMP("ABCDEFHGABABCABCDJDGD","ABABCABCD",prefixTable));
 
 
 

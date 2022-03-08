@@ -30,7 +30,7 @@ public class KnuthMorrisPratt {
 
 
 
-    public static boolean doesMatch(String string,String substring,int [] prefixTable){
+    public static boolean KMP(String string,String substring,int [] prefixTable){
 
         int i=0;
         int j=0;
